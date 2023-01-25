@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+    --tabs_color: #25DFE6;
+    --black: #000000; 
+    --maxwidth: 1200px;
+    --rootsize: 20px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--rootsize);
+    padding: 15rem;
+    
+}
+
+div header {
+    border: solid;
+    border-color: var(--black);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div header h1 {
+    padding-left: 40px;
+    color: var(--black);
+}
+
+nav{
+    color: var(--black);
+    
+}
+
+.tabslink{
+    border-style: solid;
+   
+    border-color: var(--black);
+    color: var(--grey );
+    padding: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+   
+}
+.tabslink:focus{
+    background-color: var(--tabs_color);
+    border-color: var(--tabs_color);
+    color: white;
+    font-size: 1rem;
+}
+
+#resource-info{
+   border-style: solid;
+   border-top-width: 8px; 
+   border-top-color: var(--tabs_color);
+   padding-left: 40px;
+   
+    
+}
+
