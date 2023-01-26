@@ -9,7 +9,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: var(--rootsize);
-    padding: 15rem;
+ 
+
     
 }
 
@@ -53,6 +54,16 @@ nav{
    border-top-color: var(--tabs_color);
    padding-left: 40px;
    
-    
 }
 
+@media only screen and (max-width: 670px) {
+
+    nav{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-row-gap: 2rem;
+
+    }
+      
+  }
